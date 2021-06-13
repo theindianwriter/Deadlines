@@ -1,0 +1,23 @@
+.error-404 {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image_container {
+  width: 100%;
+  height: 80%;
+  margin-top: 100px;
+}
+
+.image {
+  width: 800px;
+  height: 500px;
+  position: relative;
+}

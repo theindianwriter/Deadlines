@@ -1,0 +1,48 @@
+
+.highPriority{
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    background-color: lightcoral;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.mediumPriority{
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.lowPriority{
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    background-color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+h2 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    padding: 0%;
+    margin: auto;
+}
+    
+.heading {
+      color: #131313;
+
+    }

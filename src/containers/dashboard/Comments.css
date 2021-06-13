@@ -1,0 +1,46 @@
+.commentContainer {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  max-width: 1200px;
+  border: solid black;
+  background: white;
+  letter-spacing: 0rem;
+}
+
+.taskDetails{
+  margin-top: 0px;
+  background-color: lightgray;
+  border: 2px solid black;
+  
+}
+
+ .commentBox {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: red;
+  border: 2px solid black;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 5px;
+  
+}
+
+/* .commentbar {
+  position: fixed;
+  bottom: 5%;
+  left: 40%;
+} */
+.commentBody {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px 0;
+}
+
+.time-left {
+  float: left;
+  font-size: 10px;
+} 

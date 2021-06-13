@@ -1,0 +1,36 @@
+.notificationBox{
+    position: fixed;
+    right: 0px;
+    top: 0%;
+    background: white;
+    height: 100vh;
+    width: 30%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.subscription {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: white;
+    border: none;
+}
+
+.subscription:hover{
+    opacity: 0.8;
+    color: white;
+}
+
+.notificationbar{
+    background-color:rgb(133, 224, 240);
+    padding: 12px;
+    border-radius: 12px;
+    backdrop-filter: blur(3px);
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}

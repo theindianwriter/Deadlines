@@ -1,0 +1,390 @@
+
+
+main {
+  margin-top: 85px;
+  text-align: left;
+}
+
+.about-heading .jumbotron {
+  padding: 65px 25px;
+  /* background: url("../../home/img/2.png"); */
+  box-shadow: none !important;
+  border: none;
+}
+
+.about-heading .jumbotron h1 {
+  font-size: 40px;
+  color: #000;
+  font-weight: 800;
+}
+
+.about-heading .jumbotron p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  padding-top: 30px;
+}
+
+.our-mission-p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  padding-top: 30px;
+}
+
+.our-mission-p h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.about-header {
+  background: #ffffff;
+  margin: 50px auto auto auto;
+}
+
+.about-header-container {
+  margin: auto;
+  padding: 50px 0 160px 0;
+}
+
+.about-header-container .jumbotron p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.our-mission-heading {
+  padding: 65px 25px;
+}
+
+.our-mission-heading h1 {
+  font-size: 40px;
+  color: #000;
+  font-weight: 800;
+}
+
+.landscape-image-header .jumbotron {
+  /* background: url("./../../../../Assets/v1/about/Web-Banner1.jpg"); */
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  text-align: center;
+}
+
+.landscape-image-header .jumbotron img {
+  padding: 20px 0;
+  /* border-radius: 50%; */
+}
+
+.our-story-container {
+  margin: auto;
+  padding: 45px 0 45px 0;
+}
+
+.our-story-heading {
+  padding: 50px 25px;
+}
+
+.our-story-heading h1 {
+  font-size: 40px;
+  color: #000;
+  font-weight: 800;
+}
+
+.our-story-heading p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  padding-top: 30px;
+}
+
+.in-a-nutshell {
+  background: #ffffff;
+  margin: 40px auto;
+}
+
+.in-a-nutshell-container {
+  margin: auto;
+  padding: 100px 0;
+}
+
+.in-a-nutshell-container h1 {
+  font-size: 40px;
+  color: #000;
+  font-weight: 800;
+}
+
+.in-a-nutshell-container p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  padding-top: 30px;
+}
+
+.courses-cards {
+  margin: 75px auto;
+  text-align: -webkit-center !important;
+  text-align: center;
+  justify-content: center;
+  overflow-x: inherit;
+  position: relative;
+}
+
+.courses-cards-container {
+  margin: 75px 0;
+  text-align: center;
+  justify-content: center !important;
+  align-content: center;
+  /* background: url("../../../../Assets/v1/about/startup.jpeg"); */
+  background-size: cover;
+  background-position: center;
+  /* height: 80vh; */
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.courses-cards-container .jumbotron {
+  /* margin-bottom:; */
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+
+.work-container {
+  /* top: 75%;
+  position: absolute;
+  left: 0;
+  right: 6px; */
+  padding: 0 110px;
+  /* text-align: -webkit-center; */
+}
+
+.work-container .card {
+  padding: 30px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left !important;
+  margin-bottom: 20px;
+}
+
+.work-container .card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.work-container .card .card-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  padding: 25px 0;
+}
+
+.work-container hr {
+  margin-left: 20px;
+  margin-bottom: 25px;
+  height: 4px;
+  width: 20%;
+  background: #142cd6;
+  text-align: left !important;
+}
+
+.courses-cards-container .row-container {
+  /* margin: 0 25px; */
+  padding-bottom: 25px;
+}
+
+.courses-cards-container .jumbotron h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  text-align: left;
+  padding: 50px 25px;
+  /* text-transform: uppercase; */
+}
+
+.courses-cards-container .jumbotron p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f8fafc;
+  padding-top: -10px;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.rgba-white-slight {
+  background: rgba(253, 205, 0, 0.8);
+}
+
+.view-all-btn .btn {
+  width: 25%;
+  border-radius: 40px;
+  background: rgba(253, 205, 0, 1);
+  font-size: 18px;
+  font-weight: 800;
+  color: #000;
+  transition: 0.5s;
+}
+
+.about-header-container .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1025px) {
+  .courses-cards-container {
+    height: auto !important;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1025px) {
+  .courses-cards {
+    margin: 75px auto 100px auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-header-container {
+    margin: auto;
+    padding: 40px 0;
+  }
+
+  .our-mission-p h1 {
+    font-size: 28px;
+  }
+
+  .in-a-nutshell-container {
+    margin: auto;
+    padding: 60px 0;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  .view-all-btn .btn {
+    width: 75%;
+  }
+
+  .about-header-container .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .courses-cards-container {
+    margin: 50px 0;
+    height: auto;
+  }
+
+  .work-container {
+    padding: 0;
+  }
+
+  .work-container {
+    top: -30px;
+    position: relative;
+    padding: 40px 20px;
+    text-align: -webkit-center;
+  }
+
+  .courses-cards-container .jumbotron h1 {
+    padding-left: 0;
+  }
+
+  .courses-cards-container .jumbotron p {
+    padding-left: 0;
+  }
+
+  .view-all-btn {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .work-container {
+    top: -30px;
+    position: relative;
+    padding: 40px 0;
+    text-align: -webkit-center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-header-container .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .courses-cards-container {
+    margin: 50px 0;
+    height: auto;
+  }
+
+  .work-container {
+    padding: 0;
+  }
+
+  .work-container {
+    top: -30px;
+    position: relative;
+    padding: 40px 20px;
+    text-align: -webkit-center;
+  }
+}
+
+.flip-card {
+
+  background-color: transparent;
+  width: 210px;
+  height: 207px;
+  perspective: 1000px;
+  margin: auto;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.flip-card-front {
+  background-color: skyblue;
+  color: black;
+  text-align: center;
+}
+
+.flip-card-back {
+  background-color: lightskyblue;
+  color:black;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back > p {
+  margin: 0;
+  color: black;
+}
+
+.flip-card-back > h4 {
+  margin: 10px 0;
+}

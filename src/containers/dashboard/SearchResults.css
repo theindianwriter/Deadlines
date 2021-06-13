@@ -1,0 +1,41 @@
+.searchbar {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 100%;
+  background: white;
+  border-radius: 50px;
+}
+
+.searchContainer {
+  position: fixed;
+  z-index: 999;
+  margin: auto;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  border-radius: 10px;
+  max-height: 70%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.result{
+  background: white;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  border-bottom: 3px solid grey;
+}
+
+.result:hover{
+  background-color:cadetblue;
+  color: white;
+  
+}
+
+
+
